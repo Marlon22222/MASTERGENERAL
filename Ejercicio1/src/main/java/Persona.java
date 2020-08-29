@@ -15,14 +15,18 @@ public class Persona {
     private double Peso;
     private double Altura;
 
+//    CONSTRUCTOR VACIO PARA RECIBIR DATOS POT TECLADO DEL OBJETO 3
     public Persona() {
     }
+//    CONSTRUCTOR CON UNCIAMENTE LOS PARAEMTROS PARA LA PERSONA 2
 
     public Persona(String Nombre, int Edad, char Sexo) {
         this.Nombre = Nombre;
         this.Edad = Edad;
         this.Sexo = Sexo;
     }
+//    CONSTRUCTOR CON TODOS LOS PARAMETROS PARA LA PERSONA 1
+    
 
     public Persona(String Nombre, int Edad, char Sexo, double Peso, double Altura) {
         this.Nombre = Nombre;
@@ -49,6 +53,7 @@ public class Persona {
     public void setEdad(int Edad) {
         this.Edad = Edad;
     }
+//    METODO PARA SABER SI EL OBJETO ES MAYOR O MENOR DE EDAD 
     public String EsmayordeEdad(){
         
         int edad = this.Edad;
@@ -84,12 +89,12 @@ public class Persona {
     public void setAltura(double Altura) {
         this.Altura = Altura;
     }
-
+//  METODO TOSTRING UTILIZADO PARA PRESENTAR LOS ATRIBUTOS DE LA PERSONA 1
     public String toString() {
         return "persona{" + "Nombre=" + Nombre + ", Edad=" + Edad + ", Sexo=" + Sexo + ", Peso=" + Peso + ", Altura=" + Altura + '}';
     
     }
-
+//  METODO TOSTRING UTILIZADO PARA PRESENTAR LOS ATRIBUTOS DE LA PERSONA 2
     public String toString2() {
         return "persona{" + "Nombre=" + Nombre + ", Edad=" + Edad + ", Sexo=" + Sexo + '}';
     }

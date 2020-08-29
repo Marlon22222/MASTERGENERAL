@@ -19,7 +19,7 @@ public class NewMain {
     public static void main(String[] args) {
         // TODO code application logic here
         
-//        OBTENCION DE DATOS 
+//        OBTENCION DE DATOS DEL TECLADO DEL OBJETO 3
         Scanner sc = new Scanner(System.in);
         System.out.println("ingrese su nombre");
         String Nombre = sc.nextLine();
@@ -32,6 +32,7 @@ public class NewMain {
         System.out.println("ingrese su Altura ");
         Double Altura = sc.nextDouble();
         
+//        RECIENDO DATOS DEL OBJETO DE PARTE DEL TECLADO
         Persona persona1 = new Persona(Nombre, Edad, Sexo, Peso, Altura);
         System.out.println(persona1.toString());
         System.out.println(persona1.EsmayordeEdad());
@@ -50,6 +51,7 @@ public class NewMain {
         
         System.out.println(persona3.toString());
         System.out.println(persona3.EsmayordeEdad());
+        
         
         
         
