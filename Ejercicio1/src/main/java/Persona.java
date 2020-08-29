@@ -89,12 +89,12 @@ public class Persona {
     public void setAltura(double Altura) {
         this.Altura = Altura;
     }
-//  METODO TOSTRING UTILIZADO PARA PRESENTAR LOS ATRIBUTOS DE LA PERSONA 1
+//  METODO TOSTRING UTILIZADO PARA PRESENTAR LOS ATRIBUTOS DE LA PERSONA 1.
     public String toString() {
         return "persona{" + "Nombre=" + Nombre + ", Edad=" + Edad + ", Sexo=" + Sexo + ", Peso=" + Peso + ", Altura=" + Altura + '}';
     
     }
-//  METODO TOSTRING UTILIZADO PARA PRESENTAR LOS ATRIBUTOS DE LA PERSONA 2
+//  METODO TOSTRING UTILIZADO PARA PRESENTAR LOS ATRIBUTOS DE LA PERSONA 2.
     public String toString2() {
         return "persona{" + "Nombre=" + Nombre + ", Edad=" + Edad + ", Sexo=" + Sexo + '}';
     }
