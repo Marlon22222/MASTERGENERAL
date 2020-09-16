@@ -10,7 +10,7 @@ package Dominio;
  * @author USUARIO
  */
 public class ClsDominio {
-//    Lo primero, definimos los atributos 
+//    Lo primero, definimos los atributos.
 
     private String Lab1;
     private String Par1;
