@@ -19,22 +19,6 @@ public class ClsDominio {
     private String Lab3;
     private String Par3;
 
-//    Lo segundo es crear un constructor vacio.
-
-    public ClsDominio() {
-    }
-    
-//       Seguido de eso se crea un constructor con todos los parametros.
-
-    public ClsDominio(String Lab1, String Par1, String Lab2, String Par2, String Lab3, String Par3) {
-        this.Lab1 = Lab1;
-        this.Par1 = Par1;
-        this.Lab2 = Lab2;
-        this.Par2 = Par2;
-        this.Lab3 = Lab3;
-        this.Par3 = Par3;
-    }
-
 //    Luego creamos los get and set.
     public String getLab1() {
         return Lab1;
